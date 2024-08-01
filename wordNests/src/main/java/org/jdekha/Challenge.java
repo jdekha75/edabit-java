@@ -16,14 +16,16 @@ public class Challenge {
 
         String word = "spring";
         String nest = "sprspspspringringringg";
-
-        Pattern p = Pattern.compile(word);
-        Matcher m = p.matcher(nest);
-
         System.out.println(validWordNest(word, nest));
+
         word = "incredible";
         nest = "increinincrincredibleediblecredibledible";
         System.out.println(validWordNest(word, nest));
+
+        word = "broadcast";
+        nest = "broadcbroadcastbroadcastast";
+        System.out.println(validWordNest(word, nest));
+
     }
 
     public static boolean validWordNest(String word, String nest) {
@@ -35,7 +37,7 @@ public class Challenge {
             int start = m.start();
             int end = m.end();
             nest = nest.substring(0, start).concat(nest.substring(end));
-            p = Pattern.compile(word);
+
             m = p.matcher(nest);
         }
         return word.equals(nest);
