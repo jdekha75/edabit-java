@@ -28,21 +28,16 @@ public class Main {
 
     public static boolean validWordNest(String word, String nest) {
 
-
         Pattern p = Pattern.compile(word);
         Matcher m = p.matcher(nest);
-        while (m.find(0) && !word.equals(nest)) {
 
+        while (m.find(0) && !word.equals(nest)) {
             int start = m.start();
             int end = m.end();
-            System.out.println(nest);
             nest = nest.substring(0, start).concat(nest.substring(end));
             p = Pattern.compile(word);
             m = p.matcher(nest);
-            System.out.println(nest);
         }
-
-        System.out.println("le dernier " + nest);
         return word.equals(nest);
     }
 
