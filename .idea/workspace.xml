@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b4b7c21-3aac-4bab-8c34-8b9552ab7433" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/wordNests/src/test/java/org/jdekha/ChallengeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/premier/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stringCount/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/premier/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/stringCount/src/main/java/org/jdekha/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/premier/src/test/java/org/jdekha/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stringCount/src/test/java/org/jdekha/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordNests/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordNests/src/main/java/org/jdekha/Challenge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.ChallengeTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -54,7 +53,7 @@
       <recent name="org.jdekha" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ChallengeTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jdekha.Main" />
       <module name="stringCount" />
@@ -68,8 +67,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChallengeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordNests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jdekha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jdekha" />
+      <option name="MAIN_CLASS_NAME" value="org.jdekha.ChallengeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ChallengeTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
