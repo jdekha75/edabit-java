@@ -11,6 +11,8 @@
     <modules>
         <module>stringCount</module>
         <module>wordNests</module>
+        <module>Complete the Word</module>
+        <module>Recursion Find The Longest Word</module>
     </modules>
 
     <properties>

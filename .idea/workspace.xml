@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b4b7c21-3aac-4bab-8c34-8b9552ab7433" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Complete the Word/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Complete the Word/src/test/java/org/jdekha/ChallengeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion Find The Longest Word/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordNests/src/main/java/org/jdekha/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordNests/src/main/java/org/jdekha/Challenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordNests/src/test/java/org/jdekha/ChallengeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordNests/src/test/java/org/jdekha/ChallengeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Challenge.executor": "Run",
+    "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
+    "JUnit.ChallengeTest (1).executor": "Run",
     "JUnit.ChallengeTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -55,10 +60,36 @@
       <recent name="org.jdekha" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ChallengeTest">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jdekha.Challenge" />
       <module name="wordNests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jdekha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jdekha.Challenge" />
+      <module name="completeTheWord" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jdekha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jdekha.Main" />
+      <module name="FindTheLongestWord" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jdekha.*" />
@@ -82,6 +113,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChallengeTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="completeTheWord" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jdekha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jdekha" />
+      <option name="MAIN_CLASS_NAME" value="org.jdekha.ChallengeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChallengeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordNests" />
       <extension name="coverage">
@@ -99,9 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Challenge" />
+        <item itemvalue="JUnit.ChallengeTest (1)" />
         <item itemvalue="JUnit.ChallengeTest" />
         <item itemvalue="Application.Challenge" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -123,6 +171,15 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/jdekha/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Recursion Find The Longest Word/src/main/java/org/jdekha/Main.java</url>
+          <line>3</line>
+          <properties class="org.jdekha.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
