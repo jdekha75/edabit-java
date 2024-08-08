@@ -13,6 +13,11 @@
         <module>wordNests</module>
         <module>Complete the Word</module>
         <module>Recursion Find The Longest Word</module>
+        <module>NextLargestNumber</module>
+        <module>SameLetterPatterns</module>
+        <module>PalindromicAnagrams</module>
+        <module>PalindromicAnagrams</module>
+        <module>AddTwoStringNumbers</module>
     </modules>
 
     <properties>
