@@ -18,6 +18,12 @@
         <module>PalindromicAnagrams</module>
         <module>PalindromicAnagrams</module>
         <module>AddTwoStringNumbers</module>
+        <module>LeastCommonMult</module>
+        <module>ExpandaNumberII</module>
+        <module>Generate All Nonconsecutive Binary Strings</module>
+
+        <module>PerimeterTriangle1</module>
+        <module>AtbashCipher</module>
     </modules>
 
     <properties>
