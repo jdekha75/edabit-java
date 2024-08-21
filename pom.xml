@@ -26,6 +26,8 @@
         <module>AtbashCipher</module>
         <module>RemoveRepeatedCharacters</module>
         <module>PalindromeWord</module>
+        <module>ConsecutiveNumbers</module>
+        <module>CaesarCipher</module>
     </modules>
 
     <properties>

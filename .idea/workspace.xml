@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b4b7c21-3aac-4bab-8c34-8b9552ab7433" name="Changes" comment="" />
+    <list default="true" id="4b4b7c21-3aac-4bab-8c34-8b9552ab7433" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CaesarCipher/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaesarCipher/src/test/java/org/jdekha/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsecutiveNumbers/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +48,8 @@
     "JUnit.All in AtbashCipher (1).executor": "Run",
     "JUnit.All in AtbashCipher (2).executor": "Run",
     "JUnit.All in AtbashCipher.executor": "Run",
+    "JUnit.All in CaesarCipher (1).executor": "Run",
+    "JUnit.All in CaesarCipher.executor": "Run",
     "JUnit.All in PalindromeWord (1).executor": "Run",
     "JUnit.All in PalindromeWord (2).executor": "Run",
     "JUnit.All in PalindromeWord (3).executor": "Run",
@@ -89,7 +98,7 @@
       <recent name="org.jdekha" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jdekha.Main" />
       <module name="PalindromeWord" />
@@ -103,32 +112,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in PalindromeWord (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PalindromeWord" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jdekha.Main" />
+      <module name="CaesarCipher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jdekha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jdekha.Main" />
+      <module name="ConsecutiveNumbers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jdekha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in CaesarCipher (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CaesarCipher" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in PalindromeWord (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PalindromeWord" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in PalindromeWord (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PalindromeWord" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in PalindromeWord (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PalindromeWord" />
+    <configuration name="All in CaesarCipher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CaesarCipher" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
@@ -137,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="JUnit.All in CaesarCipher (1)" />
+        <item itemvalue="JUnit.All in CaesarCipher" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JUnit.All in PalindromeWord (4)" />
-        <item itemvalue="JUnit.All in PalindromeWord (3)" />
-        <item itemvalue="JUnit.All in PalindromeWord (2)" />
-        <item itemvalue="JUnit.All in PalindromeWord (1)" />
       </list>
     </recent_temporary>
   </component>
