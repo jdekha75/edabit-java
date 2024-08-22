@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b4b7c21-3aac-4bab-8c34-8b9552ab7433" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WordBucket/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WordBucket/src/test/java/org/jdekha/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordBuckets/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WordBucket/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordBuckets/src/main/java/org/jdekha/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordBuckets/src/test/java/org/jdekha/MainTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,69 +32,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AddTwoStringNumbers.executor": "Run",
-    "Application.Challenge.executor": "Run",
-    "Application.LeastCommonMult.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main (2).executor": "Run",
-    "Application.Main (3).executor": "Run",
-    "Application.Main.executor": "Run",
-    "JUnit.All in AtbashCipher (1).executor": "Run",
-    "JUnit.All in AtbashCipher (2).executor": "Run",
-    "JUnit.All in AtbashCipher.executor": "Run",
-    "JUnit.All in CaesarCipher (1).executor": "Run",
-    "JUnit.All in CaesarCipher.executor": "Run",
-    "JUnit.All in PalindromeWord (1).executor": "Run",
-    "JUnit.All in PalindromeWord (2).executor": "Run",
-    "JUnit.All in PalindromeWord (3).executor": "Run",
-    "JUnit.All in PalindromeWord (4).executor": "Run",
-    "JUnit.All in PalindromeWord.executor": "Run",
-    "JUnit.All in RemoveRepeatedCharacters.executor": "Run",
-    "JUnit.All in SameLetterPatterns (1).executor": "Run",
-    "JUnit.All in SameLetterPatterns (2).executor": "Run",
-    "JUnit.All in SameLetterPatterns.executor": "Run",
-    "JUnit.All in WordBucket (1).executor": "Run",
-    "JUnit.All in WordBucket (2).executor": "Run",
-    "JUnit.All in WordBucket (3).executor": "Run",
-    "JUnit.All in WordBucket.executor": "Run",
-    "JUnit.ChallengeTest (1).executor": "Run",
-    "JUnit.ChallengeTest.executor": "Run",
-    "JUnit.ChallengeTest.test1.executor": "Run",
-    "JUnit.LeastCommonMultTest.executor": "Run",
-    "JUnit.LeastCommonMultTest.test01.executor": "Run",
-    "JUnit.LeastCommonMultTest.test04.executor": "Run",
-    "JUnit.LeastCommonMultTest.test05.executor": "Run",
-    "JUnit.LeastCommonMultTest.test06.executor": "Run",
-    "JUnit.MainTest (1).executor": "Run",
-    "JUnit.MainTest (2).executor": "Run",
-    "JUnit.MainTest.executor": "Run",
-    "JUnit.MainTest.test03.executor": "Run",
-    "JUnit.MainTest.test05.executor": "Run",
-    "JUnit.MainTest.test07.executor": "Run",
-    "JUnit.MainTest.test1.executor": "Run",
-    "JUnit.MainTest.test11.executor": "Run",
-    "JUnit.MainTest.test12.executor": "Run",
-    "JUnit.MainTest.test14.executor": "Run",
-    "JUnit.MainTest.test15.executor": "Run",
-    "JUnit.MainTest.test2.executor": "Run",
-    "JUnit.MainTest.test3.executor": "Run",
-    "JUnit.MainTest.test7.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/linux/IdeaProjects/edabit-java",
-    "onboarding.tips.debug.path": "/home/linux/IdeaProjects/edabit-java/AddTwoStringNumbers/src/main/java/org/jdekha/Main.java",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddTwoStringNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Challenge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeastCommonMult.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in AtbashCipher (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in AtbashCipher (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in AtbashCipher.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in CaesarCipher (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in CaesarCipher.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in PalindromeWord (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in PalindromeWord (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in PalindromeWord (3).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in PalindromeWord (4).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in PalindromeWord.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in RemoveRepeatedCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in SameLetterPatterns (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in SameLetterPatterns (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in SameLetterPatterns.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in WordBucket (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in WordBucket (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in WordBucket (3).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in WordBucket.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChallengeTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChallengeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChallengeTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LeastCommonMultTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LeastCommonMultTest.test01.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LeastCommonMultTest.test04.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LeastCommonMultTest.test05.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LeastCommonMultTest.test06.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test03.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test05.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test07.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test11.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test12.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test14.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test15.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test7.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/linux/IdeaProjects/edabit-java&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/linux/IdeaProjects/edabit-java/AddTwoStringNumbers/src/main/java/org/jdekha/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -113,7 +106,7 @@
       <recent name="org.jdekha" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.test2">
+  <component name="RunManager" selected="JUnit.All in WordBucket (2)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jdekha.Main" />
       <module name="WordBucket" />
@@ -127,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in WordBucket (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in WordBucket (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordBucket" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -135,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in WordBucket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in WordBucket (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordBucket" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -177,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in WordBucket (2)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in WordBucket (1)" />
         <item itemvalue="JUnit.MainTest.test2" />
         <item itemvalue="JUnit.MainTest.test1" />
-        <item itemvalue="JUnit.All in WordBucket" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.All in WordBucket (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -226,24 +219,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/WordBucket/src/test/java/org/jdekha/MainTest.java</url>
-          <line>19</line>
-          <properties class="org.jdekha.MainTest" method="test3">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/WordBucket/src/test/java/org/jdekha/MainTest.java</url>
-          <line>14</line>
-          <properties class="org.jdekha.MainTest" method="test2">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
