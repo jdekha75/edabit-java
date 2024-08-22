@@ -28,6 +28,7 @@
         <module>PalindromeWord</module>
         <module>ConsecutiveNumbers</module>
         <module>CaesarCipher</module>
+        <module>WordBucket</module>
     </modules>
 
     <properties>
