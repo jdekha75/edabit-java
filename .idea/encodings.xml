@@ -11,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/Complete the Word/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ConsecutiveNumbers/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ConsecutiveNumbers/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DifferenceCipher/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DifferenceCipher/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ExpandaNumberII/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ExpandaNumberII/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Generate All Nonconsecutive Binary Strings/src/main/java" charset="UTF-8" />
@@ -23,6 +25,8 @@
     <file url="file://$PROJECT_DIR$/PalindromeWord/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PalindromicAnagrams/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PalindromicAnagrams/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ParenthesesClusters/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ParenthesesClusters/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PerimeterTriangle/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PerimeterTriangle/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PerimeterTriangle1/src/main/java" charset="UTF-8" />
@@ -31,12 +35,20 @@
     <file url="file://$PROJECT_DIR$/Recursion Find The Longest Word/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RemoveRepeatedCharacters/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RemoveRepeatedCharacters/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ReverseSortLexicalLength/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ReverseSortLexicalLength/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RisenOrFallen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RisenOrFallen/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SameLetterPatterns/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SameLetterPatterns/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SortedArrayOfWords/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SortedArrayOfWords/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/WordBucket/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/WordBucket/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/WordBuckets/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/WordBuckets/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/isFactorial/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/isFactorial/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stringCount/src/main/java" charset="UTF-8" />

@@ -29,6 +29,12 @@
         <module>ConsecutiveNumbers</module>
         <module>CaesarCipher</module>
         <module>WordBucket</module>
+        <module>ParenthesesClusters</module>
+        <module>isFactorial</module>
+        <module>DifferenceCipher</module>
+        <module>SortedArrayOfWords</module>
+        <module>RisenOrFallen</module>
+        <module>ReverseSortLexicalLength</module>
     </modules>
 
     <properties>
