@@ -35,6 +35,8 @@
         <module>SortedArrayOfWords</module>
         <module>RisenOrFallen</module>
         <module>ReverseSortLexicalLength</module>
+        <module>LongestWord</module>
+        <module>StripURLQueryParameters</module>
     </modules>
 
     <properties>

@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b4b7c21-3aac-4bab-8c34-8b9552ab7433" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DifferenceCipher/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ParenthesesClusters/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReverseSortLexicalLength/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReverseSortLexicalLength/src/test/java/org/jdekha/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RisenOrFallen/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RisenOrFallen/src/test/java/org/jdekha/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SortedArrayOfWords/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/isFactorial/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/isFactorial/src/test/java/org/jdekha/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LongestWord/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LongestWord/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LongestWord/src/test/java/org/jdekha/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StripURLQueryParameters/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StripURLQueryParameters/src/test/java/org/jdekha/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -95,6 +91,7 @@
     "JUnit.MainTest.test15.executor": "Run",
     "JUnit.MainTest.test2.executor": "Run",
     "JUnit.MainTest.test3.executor": "Run",
+    "JUnit.MainTest.test4.executor": "Run",
     "JUnit.MainTest.test7.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -102,9 +99,9 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/linux/IdeaProjects/edabit",
+    "last_opened_file_path": "/home/linux/IdeaProjects/edabit-java",
     "onboarding.tips.debug.path": "/home/linux/IdeaProjects/edabit-java/AddTwoStringNumbers/src/main/java/org/jdekha/Main.java",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
@@ -121,10 +118,10 @@
       <recent name="org.jdekha" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainTest">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jdekha.Main" />
-      <module name="ReverseSortLexicalLength" />
+      <module name="StripURLQueryParameters" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jdekha.*" />
@@ -136,7 +133,7 @@
       </method>
     </configuration>
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ReverseSortLexicalLength" />
+      <module name="StripURLQueryParameters" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jdekha.*" />
@@ -150,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ReverseSortLexicalLength" />
+    <configuration name="MainTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LongestWord" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jdekha.*" />
@@ -160,14 +157,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.jdekha" />
       <option name="MAIN_CLASS_NAME" value="org.jdekha.MainTest" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.test03 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ReverseSortLexicalLength" />
+    <configuration name="MainTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StripURLQueryParameters" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jdekha.*" />
@@ -176,14 +173,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.jdekha" />
       <option name="MAIN_CLASS_NAME" value="org.jdekha.MainTest" />
-      <option name="METHOD_NAME" value="test03" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.test06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ReverseSortLexicalLength" />
+    <configuration name="MainTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LongestWord" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jdekha.*" />
@@ -192,7 +189,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.jdekha" />
       <option name="MAIN_CLASS_NAME" value="org.jdekha.MainTest" />
-      <option name="METHOD_NAME" value="test06" />
+      <option name="METHOD_NAME" value="test7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -200,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.test03 (1)" />
-        <item itemvalue="JUnit.MainTest.test01" />
-        <item itemvalue="JUnit.MainTest.test06" />
+        <item itemvalue="JUnit.MainTest.test4" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="JUnit.MainTest.test7" />
+        <item itemvalue="JUnit.MainTest.test3" />
       </list>
     </recent_temporary>
   </component>
