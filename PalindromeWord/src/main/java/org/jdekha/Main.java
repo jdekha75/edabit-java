@@ -10,9 +10,9 @@ public class Main {
         return new StringBuilder(str).reverse().toString().equals(str);
     }
 
-    // your recursive solution here
+    // Recursive solution here
     public static boolean isPalindromeRecursive(String str) {
-        boolean isPal = str.charAt(0) == str.charAt(str.length() - 1);
+        boolean isPal = str.charAt(0) == str.charAt(str.length() - 1) ;
         if (!isPal) return false;
         if (str.length() == 1) return true;
         str = str.substring(1, str.length()-1);

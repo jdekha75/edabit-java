@@ -1,6 +1,5 @@
 package org.jdekha;
 
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -15,14 +14,12 @@ public class Main {
         int maj = 0;
 
         for (int j = 0; j < s.length(); j++) {
-            if (s.charAt(j) > 'a' && s.charAt(j) < 'z' ){
+            if (s.charAt(j) >= 'a' && s.charAt(j) <= 'z') {
                 min++;
-
             }
-
-            else if (s.charAt(j) > 'A' && s.charAt(j) < 'Z' )
+            else if (s.charAt(j) >= 'A' && s.charAt(j) <= 'Z') {
                 maj++;
-
+            }
         }
         System.out.println("length : " + s.length());
         System.out.println("min : " + min);

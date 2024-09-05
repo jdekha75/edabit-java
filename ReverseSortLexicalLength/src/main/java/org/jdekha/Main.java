@@ -13,12 +13,13 @@ public class Main {
     }
 
     public static String reverseSort(String str) {
-        Comparator<String> comparator1 = (s1, s2) -> {
-            return Integer.compare(s2.length(), s1.length());
-        };
-
+         /*
+         Comparator<String> comparator1 = (s1, s2) -> {
+                return Integer.compare(s2.length(), s1.length());
+            };
+          */
+        Comparator<String> comparator1 = Comparator.comparingInt(String::length).reversed();
         Comparator<String> comparator2 = String::compareToIgnoreCase;
-
         return Stream.of(str.split(" ")).sorted(comparator1.thenComparing(comparator2.reversed())).collect(Collectors.joining(" "));
     }
 }

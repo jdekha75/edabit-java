@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b4b7c21-3aac-4bab-8c34-8b9552ab7433" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/GetTheLuckyNumber/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NombresOpposes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NombresOpposes/src/main/resources/src.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParenthesesClusters/src/test/java/org/jdekha/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddTwoStringNumbers/src/main/java/org/jdekha/AddTwoStringNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/AddTwoStringNumbers/src/main/java/org/jdekha/AddTwoStringNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtbashCipher/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/AtbashCipher/src/main/java/org/jdekha/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Complete the Word/src/main/java/org/jdekha/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/Complete the Word/src/main/java/org/jdekha/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Complete the Word/src/test/java/org/jdekha/ChallengeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Complete the Word/src/test/java/org/jdekha/ChallengeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeastCommonMult/src/main/java/org/jdekha/LeastCommonMult.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeastCommonMult/src/main/java/org/jdekha/LeastCommonMult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LongestWord/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LongestWord/src/main/java/org/jdekha/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PalindromeWord/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PalindromeWord/src/main/java/org/jdekha/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParenthesesClusters/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ParenthesesClusters/src/main/java/org/jdekha/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PerimeterTriangle1/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PerimeterTriangle1/src/main/java/org/jdekha/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion Find The Longest Word/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion Find The Longest Word/src/main/java/org/jdekha/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReverseSortLexicalLength/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReverseSortLexicalLength/src/main/java/org/jdekha/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stringCount/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/stringCount/src/main/java/org/jdekha/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordNests/src/test/java/org/jdekha/ChallengeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordNests/src/test/java/org/jdekha/ChallengeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,11 +122,11 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/linux/IdeaProjects/edabit-java",
-    "onboarding.tips.debug.path": "/home/linux/IdeaProjects/edabit-java/AddTwoStringNumbers/src/main/java/org/jdekha/Main.java",
+    "onboarding.tips.debug.path": "/home/linux/IdeaProjects/edabit-java/NombresOpposes/src/main/java/org/jdekha/Main.java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.kotlinCompiler"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -120,10 +140,10 @@
       <recent name="org.jdekha" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jdekha.Main" />
-      <module name="StripURLQueryParameters" />
+      <module name="NombresOpposes" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jdekha.*" />
@@ -134,8 +154,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StripURLQueryParameters" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jdekha.Main" />
+      <module name="stringCount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jdekha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jdekha.Main" />
+      <module name="GetTheLuckyNumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jdekha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChallengeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordNests" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jdekha.*" />
@@ -143,14 +189,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.jdekha" />
-      <option name="MAIN_CLASS_NAME" value="org.jdekha.MainTest" />
+      <option name="MAIN_CLASS_NAME" value="org.jdekha.ChallengeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LongestWord" />
+    <configuration name="MainTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ParenthesesClusters" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jdekha.*" />
@@ -159,39 +205,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.jdekha" />
       <option name="MAIN_CLASS_NAME" value="org.jdekha.MainTest" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StripURLQueryParameters" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jdekha.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.jdekha" />
-      <option name="MAIN_CLASS_NAME" value="org.jdekha.MainTest" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LongestWord" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jdekha.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.jdekha" />
-      <option name="MAIN_CLASS_NAME" value="org.jdekha.MainTest" />
-      <option name="METHOD_NAME" value="test7" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.test4" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="JUnit.MainTest.test7" />
-        <item itemvalue="JUnit.MainTest.test3" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.ChallengeTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MainTest.test1" />
       </list>
     </recent_temporary>
   </component>

@@ -14,11 +14,8 @@ public class LeastCommonMult {
     }
 
 
-
     public static int lcmOfArray(int[] arr) {
-
         Arrays.sort(arr);
-
         int taille = arr.length;
         int max = arr[taille - 1];
         int start = 0;
@@ -35,14 +32,14 @@ public class LeastCommonMult {
         return start;
     }
 
+/*
+
+ */
     public static int lcmOfArray2(int[] arr) {
-
         Arrays.sort(arr);
-
         int taille = arr.length;
         int start = arr[0] * arr[1];
         boolean trouve = false;
-
         for (int i = 0; i < taille - 1 && !trouve; i++) {
             start = 1;
             for (int j = i + 1; j < taille && !trouve; j++) {
@@ -52,23 +49,25 @@ public class LeastCommonMult {
                     trouve = trouve && (start % arr[k] == 0);
                 }
             }
-
         }
         return start;
     }
 
-   //sur edabit
+    /*
+    sur edabit
+     */
     public static int lcmOfArray4(int[] n) {
         int lcm = n[0];
         for (int i = 1; i < n.length; i++) {
-            lcm = lcm * n[i] / gcd(lcm,n[i]);
+            lcm = lcm * n[i] / gcd(lcm, n[i]);
         }
         return lcm;
     }
+/*
+
+ */
     public static int gcd(int a, int b) {
-        if (a%b == 0) return b;
-        return gcd(b, a%b);
+        if (a % b == 0) return b;
+        return gcd(b, a % b);
     }
-
-
 }

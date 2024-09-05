@@ -10,7 +10,6 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
         String s = "I will and ever will be gratefully and perpetually loving you Tesh!😘" ;
-        System.out.println(s.matches("\\S+\\s\\S+"));
         System.out.println(findLongest(s));
     }
 
@@ -20,6 +19,11 @@ public class Main {
                 //.peek(System.out::println)
                 .max(Comparator.comparingInt(String::length)).get().toString();
     }
+
+
+/*
+
+ */
 
     public static String findLongest1(String s) {
         Pattern p = Pattern.compile("(\\S+)\\s(\\S+)");

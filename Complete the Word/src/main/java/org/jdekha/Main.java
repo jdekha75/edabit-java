@@ -3,7 +3,7 @@ package org.jdekha;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Challenge {
+public class Main {
     public static void main(String[] args) {
 
         String initial = "butl";
@@ -23,13 +23,11 @@ public class Challenge {
     }
 
 
-
     public static boolean canComplete(String initial, String word) {
-
-String[] tab = initial.split("");
+        String[] tab = initial.split("");
         System.out.println(String.join(".*", tab));
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < initial.length() ; i++) {
+        for (int i = 0; i < initial.length(); i++) {
             sb.append(initial.charAt(i) + "").append(".*");
         }
         initial = sb.toString();

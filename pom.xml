@@ -37,6 +37,8 @@
         <module>ReverseSortLexicalLength</module>
         <module>LongestWord</module>
         <module>StripURLQueryParameters</module>
+        <module>GetTheLuckyNumber</module>
+        <module>NombresOpposes</module>
     </modules>
 
     <properties>

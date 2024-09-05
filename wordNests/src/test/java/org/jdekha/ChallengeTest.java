@@ -33,7 +33,7 @@ class ChallengeTest {
 
     @Test
     public void test6() {
-        assertTrue(Challenge.validWordNest("quarrel", "quaquarrquarrelrerell"));
+        assertFalse(Challenge.validWordNest("quarrel", "quaquarrquarrelrerell"));
     }
 
     @Test
@@ -54,7 +54,7 @@ class ChallengeTest {
 
     @Test
     public void test10() {
-        assertTrue(Challenge.validWordNest("park", "pppappappapapapapparkarkarkrkrkrkrkkarkrkrarkark"));
+        assertFalse(Challenge.validWordNest("park", "pppappappapapapapparkarkarkrkrkrkrkkarkrkrarkark"));
     }
 
     @Test

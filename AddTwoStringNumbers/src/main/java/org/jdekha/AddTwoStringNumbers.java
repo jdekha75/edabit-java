@@ -39,7 +39,6 @@ public class AddTwoStringNumbers {
                 sum = i1 + i2 + retenue;
                 retenue = sum / 10;
                 sum = sum % 10;
-                //s = sum + s;
                 sb.append(sum);
                 i--;
             } catch (NumberFormatException e) {
@@ -47,11 +46,8 @@ public class AddTwoStringNumbers {
             }
         }
         if (retenue > 0) {
-            //s = retenue + s;
             sb.append(retenue);
         }
-        //System.out.println("sb " + sb.reverse().toString());
         return n1 + " + " + n2 + " = " + sb.reverse().toString();
-        //return n1+ " + " + n2 + " = " + s;
     }
 }
