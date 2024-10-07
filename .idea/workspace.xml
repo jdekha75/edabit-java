@@ -5,27 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b4b7c21-3aac-4bab-8c34-8b9552ab7433" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GetTheLuckyNumber/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NombresOpposes/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NombresOpposes/src/main/resources/src.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ParenthesesClusters/src/test/java/org/jdekha/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Period/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AddTwoStringNumbers/src/main/java/org/jdekha/AddTwoStringNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/AddTwoStringNumbers/src/main/java/org/jdekha/AddTwoStringNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtbashCipher/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/AtbashCipher/src/main/java/org/jdekha/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complete the Word/src/main/java/org/jdekha/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/Complete the Word/src/main/java/org/jdekha/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complete the Word/src/test/java/org/jdekha/ChallengeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Complete the Word/src/test/java/org/jdekha/ChallengeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeastCommonMult/src/main/java/org/jdekha/LeastCommonMult.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeastCommonMult/src/main/java/org/jdekha/LeastCommonMult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LongestWord/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LongestWord/src/main/java/org/jdekha/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PalindromeWord/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PalindromeWord/src/main/java/org/jdekha/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParenthesesClusters/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ParenthesesClusters/src/main/java/org/jdekha/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PerimeterTriangle1/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PerimeterTriangle1/src/main/java/org/jdekha/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion Find The Longest Word/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion Find The Longest Word/src/main/java/org/jdekha/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReverseSortLexicalLength/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReverseSortLexicalLength/src/main/java/org/jdekha/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anagram/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/anagram/src/main/java/org/jdekha/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stringCount/src/main/java/org/jdekha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/stringCount/src/main/java/org/jdekha/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordNests/src/test/java/org/jdekha/ChallengeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordNests/src/test/java/org/jdekha/ChallengeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,74 +47,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AddTwoStringNumbers.executor": "Run",
-    "Application.Challenge.executor": "Run",
-    "Application.LeastCommonMult.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main (2).executor": "Run",
-    "Application.Main (3).executor": "Run",
-    "Application.Main.executor": "Run",
-    "JUnit.All in AtbashCipher (1).executor": "Run",
-    "JUnit.All in AtbashCipher (2).executor": "Run",
-    "JUnit.All in AtbashCipher.executor": "Run",
-    "JUnit.All in CaesarCipher (1).executor": "Run",
-    "JUnit.All in CaesarCipher.executor": "Run",
-    "JUnit.All in PalindromeWord (1).executor": "Run",
-    "JUnit.All in PalindromeWord (2).executor": "Run",
-    "JUnit.All in PalindromeWord (3).executor": "Run",
-    "JUnit.All in PalindromeWord (4).executor": "Run",
-    "JUnit.All in PalindromeWord.executor": "Run",
-    "JUnit.All in RemoveRepeatedCharacters.executor": "Run",
-    "JUnit.All in SameLetterPatterns (1).executor": "Run",
-    "JUnit.All in SameLetterPatterns (2).executor": "Run",
-    "JUnit.All in SameLetterPatterns.executor": "Run",
-    "JUnit.All in WordBucket (1).executor": "Run",
-    "JUnit.All in WordBucket (2).executor": "Run",
-    "JUnit.All in WordBucket (3).executor": "Run",
-    "JUnit.All in WordBucket.executor": "Run",
-    "JUnit.ChallengeTest (1).executor": "Run",
-    "JUnit.ChallengeTest.executor": "Run",
-    "JUnit.ChallengeTest.test1.executor": "Run",
-    "JUnit.LeastCommonMultTest.executor": "Run",
-    "JUnit.LeastCommonMultTest.test01.executor": "Run",
-    "JUnit.LeastCommonMultTest.test04.executor": "Run",
-    "JUnit.LeastCommonMultTest.test05.executor": "Run",
-    "JUnit.LeastCommonMultTest.test06.executor": "Run",
-    "JUnit.MainTest (1).executor": "Run",
-    "JUnit.MainTest (2).executor": "Run",
-    "JUnit.MainTest.executor": "Run",
-    "JUnit.MainTest.test01.executor": "Run",
-    "JUnit.MainTest.test03 (1).executor": "Run",
-    "JUnit.MainTest.test03.executor": "Run",
-    "JUnit.MainTest.test04.executor": "Run",
-    "JUnit.MainTest.test05.executor": "Run",
-    "JUnit.MainTest.test06.executor": "Run",
-    "JUnit.MainTest.test07.executor": "Run",
-    "JUnit.MainTest.test1.executor": "Run",
-    "JUnit.MainTest.test11.executor": "Run",
-    "JUnit.MainTest.test12.executor": "Run",
-    "JUnit.MainTest.test14.executor": "Run",
-    "JUnit.MainTest.test15.executor": "Run",
-    "JUnit.MainTest.test2.executor": "Run",
-    "JUnit.MainTest.test3.executor": "Run",
-    "JUnit.MainTest.test4.executor": "Run",
-    "JUnit.MainTest.test7.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/linux/IdeaProjects/edabit-java",
-    "onboarding.tips.debug.path": "/home/linux/IdeaProjects/edabit-java/NombresOpposes/src/main/java/org/jdekha/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddTwoStringNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Challenge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeastCommonMult.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (3).executor&quot;: &quot;Coverage&quot;,
+    &quot;Application.Main (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in AtbashCipher (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in AtbashCipher (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in AtbashCipher.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in CaesarCipher (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in CaesarCipher.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in PalindromeWord (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in PalindromeWord (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in PalindromeWord (3).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in PalindromeWord (4).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in PalindromeWord.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in RemoveRepeatedCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in SameLetterPatterns (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in SameLetterPatterns (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in SameLetterPatterns.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in WordBucket (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in WordBucket (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in WordBucket (3).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in WordBucket.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChallengeTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChallengeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChallengeTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LeastCommonMultTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LeastCommonMultTest.test01.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LeastCommonMultTest.test04.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LeastCommonMultTest.test05.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LeastCommonMultTest.test06.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test01.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test03 (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test03.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test04.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test05.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test06.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test07.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test11.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test12.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test14.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test15.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test7.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/linux/IdeaProjects/calculatrice&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/linux/IdeaProjects/edabit-java/Period/src/main/java/org/jdekha/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -140,10 +127,10 @@
       <recent name="org.jdekha" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jdekha.Main" />
-      <module name="NombresOpposes" />
+  <component name="RunManager" selected="Application.AddTwoStringNumbers">
+    <configuration name="AddTwoStringNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jdekha.AddTwoStringNumbers" />
+      <module name="AddTwoStringNumbers" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jdekha.*" />
@@ -154,9 +141,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jdekha.Main" />
-      <module name="stringCount" />
+      <module name="Period" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jdekha.*" />
@@ -169,7 +156,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jdekha.Main" />
-      <module name="GetTheLuckyNumber" />
+      <module name="anagram" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jdekha.*" />
@@ -180,23 +167,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChallengeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wordNests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jdekha.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.jdekha" />
-      <option name="MAIN_CLASS_NAME" value="org.jdekha.ChallengeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ParenthesesClusters" />
+    <configuration name="MainTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="anagram" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jdekha.*" />
@@ -205,7 +177,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.jdekha" />
       <option name="MAIN_CLASS_NAME" value="org.jdekha.MainTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="anagram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jdekha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jdekha" />
+      <option name="MAIN_CLASS_NAME" value="org.jdekha.MainTest" />
+      <option name="METHOD_NAME" value="test03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.AddTwoStringNumbers" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JUnit.ChallengeTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.MainTest.test1" />
+        <item itemvalue="JUnit.MainTest (1)" />
+        <item itemvalue="JUnit.MainTest.test03" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +240,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/jdekha/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/anagram/src/main/java/org/jdekha/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Period/src/main/java/org/jdekha/Main.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Recursion Find The Longest Word/src/main/java/org/jdekha/Main.java</url>

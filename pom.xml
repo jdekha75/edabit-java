@@ -39,6 +39,9 @@
         <module>StripURLQueryParameters</module>
         <module>GetTheLuckyNumber</module>
         <module>NombresOpposes</module>
+        <module>anagram</module>
+        <module>Zygodromes</module>
+        <module>Period</module>
     </modules>
 
     <properties>
