@@ -10,7 +10,7 @@ public class Main {
     public static String alphabetIndex(String[] alphabet, String s) {
         int i = alphabet.length - 1;
         s = s.toLowerCase();
-        while (i > 0 && !s.contains(alphabet[i])) {
+        while (i >= 0 && !s.contains(alphabet[i])) {
             i--;
         }
         s = i < 0 ? "" : i + 1 + alphabet[i];
