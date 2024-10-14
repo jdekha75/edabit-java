@@ -90,4 +90,9 @@ class MainTest {
     public void test17() {
         assertEquals("kjlm", Main.longest("kjlmjjiiiidfiwii"));
     }
+
+    @Test
+    public void test18() {
+        assertEquals("xyzi", Main.longest("xyxxyzyxyxxyzyzyxyxxyziyzyzy"));
+    }
 }

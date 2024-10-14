@@ -4,7 +4,7 @@ package org.jdekha;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println(longest("xyxxyzyzy"));
+        System.out.println(longest("xyxxyzyzyxyxxyziyzy"));
     }
 
     public static String longest(String str) {
@@ -22,8 +22,8 @@ public class Main {
                 if (c == str.charAt(i - 1)) {
                     s = c + "";
                 } else {
-                    int j = str.lastIndexOf(s);
-                    j = j < i ? j : str.indexOf(s);
+                    int j = str.substring(0, i).lastIndexOf(s);
+                    //j = j < i ? j : str.indexOf(s);
                     j = str.indexOf(c, j);
                     i = j + 1;
                     s = str.charAt(i) + "";
