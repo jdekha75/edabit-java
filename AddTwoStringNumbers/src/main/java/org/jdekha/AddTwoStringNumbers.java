@@ -14,9 +14,10 @@ public class AddTwoStringNumbers {
 
 //        String z = "1".repeat(5);
 //        System.out.println(z);
-//        System.out.println(addStrNums("999", "1001"));
-//        System.out.println(addStrNums("12300", "300021"));
+        System.out.println(addStrNums("999", "1001"));
+        System.out.println(addStrNums("12300", "300021"));
         System.out.println(addStrNums("13300", "3367"));
+        System.out.println(addStrNums("0", "000"));
     }
 
     public static String addStrNums(String n1, String n2) {
@@ -37,10 +38,7 @@ public class AddTwoStringNumbers {
             int somme = ((int) tab1[i] + (int) tab2[i] + retenue) % 48;
             int unite = somme % 10;
             retenue = somme / 10;
-            //System.out.println(tab2[i]);
-            System.out.println(unite);
             stringBuilder.append(unite);
-            //System.out.println(somme);
         }
         if (retenue == 1) {
             stringBuilder.append(retenue);
