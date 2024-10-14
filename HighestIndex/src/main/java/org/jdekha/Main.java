@@ -9,9 +9,11 @@ public class Main {
 
     public static String alphabetIndex(String[] alphabet, String s) {
         int i = alphabet.length - 1;
-        while (!s.toLowerCase().contains(alphabet[i])) {
+        s = s.toLowerCase();
+        while (i > 0 && !s.contains(alphabet[i])) {
             i--;
         }
-        return i + 1 + alphabet[i];
+        s = i < 0 ? "" : i + 1 + alphabet[i];
+        return s;
     }
 }
