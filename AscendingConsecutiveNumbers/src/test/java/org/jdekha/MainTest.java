@@ -2,10 +2,10 @@ package org.jdekha;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class MainTest {
-
     @Test
     public void test1() {
         assertTrue(Main.ascending("232425"));

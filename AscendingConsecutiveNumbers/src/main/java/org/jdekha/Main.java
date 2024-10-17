@@ -1,6 +1,5 @@
 package org.jdekha;
 
-import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
@@ -11,6 +10,32 @@ public class Main {
     }
 
     public static boolean ascending(String str) {
+        str = str.replaceAll(" ", "");
+        int offSet = 1;
+        boolean ordonne = false;
+        while (!ordonne && offSet <= str.length() / 2) {
+            if (str.length() % offSet != 0) {
+                offSet++;
+            }
+            else {
+                String regExp = "\\d{" + offSet + "}";
+                Pattern pattern = Pattern.compile(regExp);
+                Matcher matcher = pattern.matcher(str);
+                matcher.find();
+                int val = Integer.parseInt(matcher.group());
+                ordonne = true;
+                while (ordonne && matcher.find()) {
+                    int val2 = Integer.parseInt(matcher.group());
+                    ordonne = val2 == val + 1;
+                    val = val2;
+                }
+                offSet++;
+            }
+        }
+        return ordonne;
+    }
+
+    public static boolean ascending4(String str) {
         // ascending2("1111 1112 1113 1114 1115");
         str = str.replaceAll(" ", "");
         int taille = str.length();
@@ -75,7 +100,6 @@ public class Main {
         int offSet = 1;
         boolean ordonne = false;
         while (!ordonne && offSet <= str.length() / 2) {
-            String s = "";
             if (str.length() % offSet != 0) {
                 offSet++;
             }
@@ -85,20 +109,18 @@ public class Main {
                 Matcher matcher = pattern.matcher(str);
                 int i = 0;
                 int taille = str.length() / offSet;
-                int tab[] = new int[taille];
+                int[] tab = new int[taille];
                 while (matcher.find()) {
                     String gr = matcher.group();
                     tab[i++] = Integer.parseInt(gr);
-                    s += gr + " ";
                 }
                 ordonne = true;
                 for (i = 0; i < taille - 1 && ordonne; i++) {
                     ordonne = tab[i] + 1 == tab[i + 1];
                 }
                 offSet++;
-                System.out.println(Arrays.toString(tab));
             }
         }
-        return true;
+        return ordonne;
     }
 }
