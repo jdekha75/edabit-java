@@ -34,7 +34,35 @@ public class Main {
         return toCipher(text, keyword);
     }
 
+    private static String toCipher(String text, String keyword) {
+        char[] textArray = text.replaceAll("\\W", "").toUpperCase().toCharArray();
+        int length = textArray.length;
+        keyword = keyword.toUpperCase();
+        keyword = fill(keyword, length);
+        char[] keywordArray = keyword.toCharArray();
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < length; i++) {
+            char c = (char) (((textArray[i] - 'A') + (keywordArray[i] - 'A')) % 26 + 'A');
+            stringBuilder.append(c);
+        }
+        return stringBuilder.toString();
+    }
+
     private static String fromCipher(String cipher, String keyword) {
+        char[] cipherArray = cipher.toCharArray();
+        int length = cipherArray.length;
+        keyword = keyword.toUpperCase();
+        keyword = fill(keyword, length);
+        char[] keywordArray = keyword.toCharArray();
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < length; i++) {
+            char c = (char) ((cipherArray[i] - keywordArray[i] + 26) % 26 + 'A');
+            stringBuilder.append(c);
+        }
+        return stringBuilder.toString();
+    }
+
+    private static String fromCipher2(String cipher, String keyword) {
         char[] cipherArray = cipher.toCharArray();
         int length = cipherArray.length;
         keyword = keyword.toUpperCase();
@@ -53,7 +81,7 @@ public class Main {
         return stringBuilder.toString();
     }
 
-    private static String toCipher(String text, String keyword) {
+    private static String toCipher1(String text, String keyword) {
         char[] textArray = text.replaceAll("\\W", "").toUpperCase().toCharArray();
         int length = textArray.length;
         keyword = keyword.toUpperCase();
