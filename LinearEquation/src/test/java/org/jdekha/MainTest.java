@@ -8,13 +8,8 @@ class MainTest {
 
 
 
-            [TestCase("2x+3x-6x=x+2", Result="x=-1")]
-            [TestCase("x=x+5", Result="No solution")]
-            [TestCase("3x=33+22+11", Result="x=22")]
-            [TestCase("99x=99", Result="x=1")]
-            [TestCase("-19+17+19+14x-13-13x-5x-6x-16x-19=19x+7x+6+11+17-19x-20x", Result="x=-3.77")]
-            [TestCase("13x-18x-33+4x+15-26-5x-19x-29x-30-9x+101x=-34+11+35-14+38x-34", Result="No solution")]
-            [TestCase("53-38x+48+52x-40x-59-57x-26x+78x+14-3x-75x-43x-34x+29x=5+56x+21x-13x-14-39x+21-55x+10x-44-49x", Result="x=1")]
+
+
             [TestCase("-38x+41+87+70x-93x-7x-81+55x+86-55x+89x+x+98+62x-35-98x=71-65+89x+3-12x+87x-18+35x+90+54x+31+84-35x+29x-261x", Result="Infinite solutions")]
             [TestCase("71+147-129x+100x-31+22-33x+118+28x-94+124-40-133x-13+112+14+15x+60x-11x-29+109x-32+70-21x-65=-55+20x-121+13+79x+89-115-11+66x+86-110-115-19+129x-44x+129-28x+13+114x+43x+9x-125x+83x-21x-90", Result="x=2")]
             [TestCase("-57+110+16+70+2-53x+51x-87x-56+108x+73x-87+110x-29x+4x+62+115x+72+29+114+113x-147x-121-78x+39-140-14x-46x-98x-34x+113-54+67x+112x-73+97x-137x-130+65x+95x-26x+50+35+23-111x=-11x+121-31x-9-42x+149+48x-17-60+124+56x+105+85-83x-88+94-24-62-79+32-145x-88x-61x-135x-133x", Result="x=0.46")]
@@ -53,5 +48,40 @@ class MainTest {
     @Test
     void test6() {
         Assertions.assertEquals("x=0", Main.findX("2x=x"));
+    }
+
+    @Test
+    void test7() {
+        Assertions.assertEquals("x=-1", Main.findX("2x+3x-6x=x+2"));
+    }
+
+    @Test
+    void test8() {
+        Assertions.assertEquals("x=22", Main.findX("3x=33+22+11"));
+    }
+
+    @Test
+    void test9() {
+        Assertions.assertEquals("No solution", Main.findX("x=x+5"));
+    }
+
+    @Test
+    void test10() {
+        Assertions.assertEquals("x=1", Main.findX("99=99x"));
+    }
+
+    @Test
+    void test11() {
+        Assertions.assertEquals("x=-3.77", Main.findX("-19+17+19+14x-13-13x-5x-6x-16x-19=19x+7x+6+11+17-19x-20x")); //  [TestCase("-19+17+19+14x-13-13x-5x-6x-16x-19=19x+7x+6+11+17-19x-20x", Result="x=-3.77")]
+    }
+
+    @Test
+    void test12() {
+        Assertions.assertEquals("No solution", Main.findX("13x-18x-33+4x+15-26-5x-19x-29x-30-9x+101x=-34+11+35-14+38x-34"));
+    }
+
+    @Test
+    void test13() {
+        Assertions.assertEquals("x=1", Main.findX("53-38x+48+52x-40x-59-57x-26x+78x+14-3x-75x-43x-34x+29x=5+56x+21x-13x-14-39x+21-55x+10x-44-49x"));
     }
 }
