@@ -7,11 +7,12 @@ import java.util.regex.Pattern;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        System.out.println(findX("4x-7=x+11"));
     }
 
     public static String findX(String eq) {
         //FindX("4x-7=x+11") ➞ "x=6"
-        String[] s = eq.split("=");
+        String[] s = eq.replaceAll("-", "+-").split("=");
         String s0 = s[0];
         String s1 = s[1];
         long l0 = matchesN(s0);
@@ -34,18 +35,23 @@ public class Main {
                 eq = "No solution";
             }
             else {
-                eq = l0 / l1 + "";
+                double result =  (double)l0 / l1;
+                eq = String.format("x=%.2f",result);
+
             }
         }
         //s0 = l0 < 0 ? s0 + l0 : s0 + "+" + l0;
         //s1 = l1 < 0 ? s1 + l1 : s1 + "+" + l1;
         //return s0  + "=" + s1;
+        if (eq.endsWith("00")) {
+            return eq.substring(0, eq.lastIndexOf("."));
+        }
         return eq;
     }
 
     private static long matchesN(String s) {
         s = s.replaceAll("\\s", "");
-        String regExp = "([-]?\\d+)(|-|\\+)";
+        String regExp = "(-?\\d+)($|-|\\+)";
         Pattern p = Pattern.compile(regExp);
         Matcher m = p.matcher(s);
         return m.results().mapToInt(e -> Integer.parseInt(e.group(1))).summaryStatistics().getSum();
