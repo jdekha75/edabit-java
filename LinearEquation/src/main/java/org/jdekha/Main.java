@@ -3,30 +3,21 @@ package org.jdekha;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         System.out.println(findX("4x-7=x+11"));
     }
 
     public static String findX(String eq) {
-        //FindX("4x-7=x+11") ➞ "x=6"
         String[] s = eq.replaceAll("-", "+-").split("=");
         String s0 = s[0];
         String s1 = s[1];
         long l0 = matchesN(s0);
-        System.out.println(l0);
         long l1 = matchesN(s1);
-        System.out.println(l1);
         l0 = l1 - l0;
-        System.out.println(l0);
         s0 = matchesX(s0).replace("x", "");
-        System.out.println(s0);
         s1 = matchesX(s1).replace("x", "");
-        System.out.println(s1);
         l1 = Integer.parseInt(s0) - Integer.parseInt(s1);
-        System.out.println(l1);
         if (l0 == 0 && l1 == 0) {
             eq = "Infinite solutions";
         }
@@ -35,14 +26,10 @@ public class Main {
                 eq = "No solution";
             }
             else {
-                double result =  (double)l0 / l1;
-                eq = String.format("x=%.2f",result);
-
+                double result = (double) l0 / l1;
+                eq = String.format("x=%.2f", result);
             }
         }
-        //s0 = l0 < 0 ? s0 + l0 : s0 + "+" + l0;
-        //s1 = l1 < 0 ? s1 + l1 : s1 + "+" + l1;
-        //return s0  + "=" + s1;
         if (eq.endsWith("00")) {
             return eq.substring(0, eq.lastIndexOf("."));
         }
@@ -70,9 +57,6 @@ public class Main {
             ;
             return Integer.parseInt(str.replace("x", "1"));
         }).summaryStatistics().getSum();
-//        if (somme == 0) {
-//            return "0";
-//        }
         return somme + "x";
     }
 }
